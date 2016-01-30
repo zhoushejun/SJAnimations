@@ -76,7 +76,9 @@
 //    layer.borderColor = [UIColor whiteColor].CGColor;
 //    layer.borderWidth = 2;
 //    layer.masksToBounds = YES;
-//    layer.delegate = self;
+    layer.delegate = self;
+
+    layer.transform = CATransform3DMakeRotation(M_PI, 1, 0, 0);
 
     self.subLayer = layer;
     [self.view.layer addSublayer:layer];
