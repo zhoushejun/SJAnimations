@@ -10,6 +10,7 @@
 		CF6249E81C566681005D3C36 /* UIView+GlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6249E71C566681005D3C36 /* UIView+GlowView.m */; };
 		CF65E25A1C5C8DD200E8EE7B /* SJBasicAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF65E2591C5C8DD200E8EE7B /* SJBasicAnimationViewController.m */; };
 		CF65E25D1C5C8DE700E8EE7B /* SJSimpleAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF65E25C1C5C8DE700E8EE7B /* SJSimpleAnimationViewController.m */; };
+		CF65E2611C5C966000E8EE7B /* SJKeyframeAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF65E2601C5C966000E8EE7B /* SJKeyframeAnimationViewController.m */; };
 		CF723F891C4A8AD000EF4027 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF723F881C4A8AD000EF4027 /* main.m */; };
 		CF723F8C1C4A8AD000EF4027 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF723F8B1C4A8AD000EF4027 /* AppDelegate.m */; };
 		CF723F921C4A8AD000EF4027 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF723F901C4A8AD000EF4027 /* Main.storyboard */; };
@@ -49,6 +50,8 @@
 		CF65E2591C5C8DD200E8EE7B /* SJBasicAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJBasicAnimationViewController.m; sourceTree = "<group>"; };
 		CF65E25B1C5C8DE700E8EE7B /* SJSimpleAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJSimpleAnimationViewController.h; sourceTree = "<group>"; };
 		CF65E25C1C5C8DE700E8EE7B /* SJSimpleAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJSimpleAnimationViewController.m; sourceTree = "<group>"; };
+		CF65E25F1C5C966000E8EE7B /* SJKeyframeAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJKeyframeAnimationViewController.h; sourceTree = "<group>"; };
+		CF65E2601C5C966000E8EE7B /* SJKeyframeAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJKeyframeAnimationViewController.m; sourceTree = "<group>"; };
 		CF723F841C4A8AD000EF4027 /* SJAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SJAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF723F881C4A8AD000EF4027 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CF723F8A1C4A8AD000EF4027 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -164,6 +167,15 @@
 			path = SJSimpleAnimationViewController;
 			sourceTree = "<group>";
 		};
+		CF65E25E1C5C964100E8EE7B /* SJKeyframeAnimationViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CF65E25F1C5C966000E8EE7B /* SJKeyframeAnimationViewController.h */,
+				CF65E2601C5C966000E8EE7B /* SJKeyframeAnimationViewController.m */,
+			);
+			path = SJKeyframeAnimationViewController;
+			sourceTree = "<group>";
+		};
 		CF723F7B1C4A8AD000EF4027 = {
 			isa = PBXGroup;
 			children = (
@@ -260,6 +272,7 @@
 		CF723FB41C4A926500EF4027 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				CF65E25E1C5C964100E8EE7B /* SJKeyframeAnimationViewController */,
 				CF65E2561C5C8DB300E8EE7B /* SJBasicAnimationViewController */,
 				CF65E2571C5C8DB300E8EE7B /* SJSimpleAnimationViewController */,
 				CF72401B1C4AB32F00EF4027 /* SJButtonPressViewController */,
@@ -454,6 +467,7 @@
 				CF723F891C4A8AD000EF4027 /* main.m in Sources */,
 				CF7240091C4AACBA00EF4027 /* POPAnimatableProperty.mm in Sources */,
 				CF7240181C4AACBA00EF4027 /* POPSpringAnimation.mm in Sources */,
+				CF65E2611C5C966000E8EE7B /* SJKeyframeAnimationViewController.m in Sources */,
 				CF723FB51C4A926500EF4027 /* SJRootViewController.m in Sources */,
 				CF7240151C4AACBA00EF4027 /* POPLayerExtras.mm in Sources */,
 				CF72401A1C4AACBA00EF4027 /* TransformationMatrix.cpp in Sources */,

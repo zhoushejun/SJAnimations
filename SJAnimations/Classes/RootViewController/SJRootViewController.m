@@ -74,7 +74,7 @@
         NSArray *array = @[[SJItem itemWithName:@"POP-按钮动画" object:[SJButtonPressViewController class]],
                            [SJItem itemWithName:@"POP-UIView原生简单动画" object:[SJSimpleAnimationViewController class]],
                            [SJItem itemWithName:@"POP-CABasicAnimation动画" object:[SJBasicAnimationViewController class]],
-                           [SJItem itemWithName:@"POP-按钮动画" object:[SJButtonPressViewController class]],
+                           [SJItem itemWithName:@"POP-关键帧动画" object:[SJKeyframeAnimationViewController class]],
                            [SJItem itemWithName:@"POP-按钮动画" object:[SJButtonPressViewController class]],
                            [SJItem itemWithName:@"POP-按钮动画" object:[SJButtonPressViewController class]],
                            [SJItem itemWithName:@"POP-按钮动画" object:[SJButtonPressViewController class]],

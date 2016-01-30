@@ -19,5 +19,6 @@
 #import "SJButtonPressViewController.h"
 #import "SJSimpleAnimationViewController.h"
 #import "SJBasicAnimationViewController.h"
+#import "SJKeyframeAnimationViewController.h"
 
 #endif /* SJViewControllersHeader_h */
