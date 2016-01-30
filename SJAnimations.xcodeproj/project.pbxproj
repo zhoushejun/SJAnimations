@@ -13,6 +13,7 @@
 		CF65E2611C5C966000E8EE7B /* SJKeyframeAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF65E2601C5C966000E8EE7B /* SJKeyframeAnimationViewController.m */; };
 		CF65E2651C5C996600E8EE7B /* SJAnimationGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF65E2641C5C996600E8EE7B /* SJAnimationGroupViewController.m */; };
 		CF65E2691C5CA9B100E8EE7B /* SJTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF65E2681C5CA9B100E8EE7B /* SJTransitionViewController.m */; };
+		CF65E26D1C5CAC6100E8EE7B /* SJDisplayLinkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF65E26C1C5CAC6100E8EE7B /* SJDisplayLinkViewController.m */; };
 		CF723F891C4A8AD000EF4027 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF723F881C4A8AD000EF4027 /* main.m */; };
 		CF723F8C1C4A8AD000EF4027 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF723F8B1C4A8AD000EF4027 /* AppDelegate.m */; };
 		CF723F921C4A8AD000EF4027 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF723F901C4A8AD000EF4027 /* Main.storyboard */; };
@@ -58,6 +59,8 @@
 		CF65E2641C5C996600E8EE7B /* SJAnimationGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJAnimationGroupViewController.m; sourceTree = "<group>"; };
 		CF65E2671C5CA9B100E8EE7B /* SJTransitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJTransitionViewController.h; sourceTree = "<group>"; };
 		CF65E2681C5CA9B100E8EE7B /* SJTransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJTransitionViewController.m; sourceTree = "<group>"; };
+		CF65E26B1C5CAC6100E8EE7B /* SJDisplayLinkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJDisplayLinkViewController.h; sourceTree = "<group>"; };
+		CF65E26C1C5CAC6100E8EE7B /* SJDisplayLinkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJDisplayLinkViewController.m; sourceTree = "<group>"; };
 		CF723F841C4A8AD000EF4027 /* SJAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SJAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF723F881C4A8AD000EF4027 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CF723F8A1C4A8AD000EF4027 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -200,6 +203,15 @@
 			path = SJTransitionViewController;
 			sourceTree = "<group>";
 		};
+		CF65E26A1C5CAC5200E8EE7B /* SJDisplayLinkViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CF65E26B1C5CAC6100E8EE7B /* SJDisplayLinkViewController.h */,
+				CF65E26C1C5CAC6100E8EE7B /* SJDisplayLinkViewController.m */,
+			);
+			path = SJDisplayLinkViewController;
+			sourceTree = "<group>";
+		};
 		CF723F7B1C4A8AD000EF4027 = {
 			isa = PBXGroup;
 			children = (
@@ -296,6 +308,7 @@
 		CF723FB41C4A926500EF4027 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				CF65E26A1C5CAC5200E8EE7B /* SJDisplayLinkViewController */,
 				CF65E2621C5C995200E8EE7B /* SJAnimationGroupViewController */,
 				CF65E25E1C5C964100E8EE7B /* SJKeyframeAnimationViewController */,
 				CF65E2561C5C8DB300E8EE7B /* SJBasicAnimationViewController */,
@@ -502,6 +515,7 @@
 				CF723FBF1C4A9EA400EF4027 /* SJRootViewCell.m in Sources */,
 				CF72400A1C4AACBA00EF4027 /* POPAnimation.mm in Sources */,
 				CF7240161C4AACBA00EF4027 /* POPMath.mm in Sources */,
+				CF65E26D1C5CAC6100E8EE7B /* SJDisplayLinkViewController.m in Sources */,
 				CF7240171C4AACBA00EF4027 /* POPPropertyAnimation.mm in Sources */,
 				CF65E25D1C5C8DE700E8EE7B /* SJSimpleAnimationViewController.m in Sources */,
 				CF65E25A1C5C8DD200E8EE7B /* SJBasicAnimationViewController.m in Sources */,
