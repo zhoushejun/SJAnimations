@@ -58,6 +58,28 @@
     keyframeAnimation.duration = 8.0;
     keyframeAnimation.beginTime = CACurrentMediaTime();
     [_subLayer addAnimation:keyframeAnimation forKey:@"KCKeyframeAnimation_Position"];
+    
+    [self wave];
+}
+
+- (void)wave {
+    CAKeyframeAnimation *scaleX = [CAKeyframeAnimation animationWithKeyPath:@"transform.scale.x"];
+    scaleX.duration = 1.5;
+    scaleX.values = @[@1.0,@1.1,@1.0];
+    scaleX.keyTimes = @[@0, @0.6, @1];
+    scaleX.repeatCount = 10;
+    scaleX.autoreverses = YES;
+    scaleX.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionLinear];
+    [_subLayer addAnimation:scaleX forKey:@"scaleXAnimation"];
+    
+    CAKeyframeAnimation *scaleY = [CAKeyframeAnimation animationWithKeyPath:@"transform.scale.y"];
+    scaleY.duration = 2;
+    scaleY.values = @[@1.0,@1.1,@1.0];
+    scaleY.keyTimes = @[@0, @0.5, @1];
+    scaleY.repeatCount = 10;
+    scaleY.autoreverses = YES;
+    scaleY.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionLinear];
+    [_subLayer addAnimation:scaleY forKey:@"scaleYAnimation"];
 }
 
 #pragma mark - getter and setter
