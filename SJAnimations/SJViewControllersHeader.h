@@ -20,5 +20,6 @@
 #import "SJSimpleAnimationViewController.h"
 #import "SJBasicAnimationViewController.h"
 #import "SJKeyframeAnimationViewController.h"
+#import "SJAnimationGroupViewController.h"
 
 #endif /* SJViewControllersHeader_h */
