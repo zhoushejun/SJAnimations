@@ -24,5 +24,6 @@
 #import "SJTransitionViewController.h"
 #import "SJDisplayLinkViewController.h"
 #import "SJLayerAnimationViewController.h"
+#import "SJCustomLayerViewController.h"
 
 #endif /* SJViewControllersHeader_h */

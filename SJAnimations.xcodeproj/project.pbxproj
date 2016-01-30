@@ -15,6 +15,8 @@
 		CF65E2691C5CA9B100E8EE7B /* SJTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF65E2681C5CA9B100E8EE7B /* SJTransitionViewController.m */; };
 		CF65E26D1C5CAC6100E8EE7B /* SJDisplayLinkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF65E26C1C5CAC6100E8EE7B /* SJDisplayLinkViewController.m */; };
 		CF65E2741C5CAEBD00E8EE7B /* SJLayerAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF65E2731C5CAEBD00E8EE7B /* SJLayerAnimationViewController.m */; };
+		CF65E2781C5CB7FD00E8EE7B /* SJCustomLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF65E2771C5CB7FD00E8EE7B /* SJCustomLayerViewController.m */; };
+		CF65E27B1C5CB8A800E8EE7B /* SJCustomLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CF65E27A1C5CB8A800E8EE7B /* SJCustomLayer.m */; };
 		CF723F891C4A8AD000EF4027 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF723F881C4A8AD000EF4027 /* main.m */; };
 		CF723F8C1C4A8AD000EF4027 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF723F8B1C4A8AD000EF4027 /* AppDelegate.m */; };
 		CF723F921C4A8AD000EF4027 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF723F901C4A8AD000EF4027 /* Main.storyboard */; };
@@ -64,6 +66,10 @@
 		CF65E26C1C5CAC6100E8EE7B /* SJDisplayLinkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJDisplayLinkViewController.m; sourceTree = "<group>"; };
 		CF65E2721C5CAEBD00E8EE7B /* SJLayerAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJLayerAnimationViewController.h; sourceTree = "<group>"; };
 		CF65E2731C5CAEBD00E8EE7B /* SJLayerAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJLayerAnimationViewController.m; sourceTree = "<group>"; };
+		CF65E2761C5CB7FD00E8EE7B /* SJCustomLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJCustomLayerViewController.h; sourceTree = "<group>"; };
+		CF65E2771C5CB7FD00E8EE7B /* SJCustomLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJCustomLayerViewController.m; sourceTree = "<group>"; };
+		CF65E2791C5CB8A800E8EE7B /* SJCustomLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJCustomLayer.h; sourceTree = "<group>"; };
+		CF65E27A1C5CB8A800E8EE7B /* SJCustomLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJCustomLayer.m; sourceTree = "<group>"; };
 		CF723F841C4A8AD000EF4027 /* SJAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SJAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF723F881C4A8AD000EF4027 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CF723F8A1C4A8AD000EF4027 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -224,6 +230,17 @@
 			path = SJLayerAnimationViewController;
 			sourceTree = "<group>";
 		};
+		CF65E2751C5CB7F100E8EE7B /* SJCustomLayerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CF65E2761C5CB7FD00E8EE7B /* SJCustomLayerViewController.h */,
+				CF65E2771C5CB7FD00E8EE7B /* SJCustomLayerViewController.m */,
+				CF65E2791C5CB8A800E8EE7B /* SJCustomLayer.h */,
+				CF65E27A1C5CB8A800E8EE7B /* SJCustomLayer.m */,
+			);
+			path = SJCustomLayerViewController;
+			sourceTree = "<group>";
+		};
 		CF723F7B1C4A8AD000EF4027 = {
 			isa = PBXGroup;
 			children = (
@@ -320,6 +337,7 @@
 		CF723FB41C4A926500EF4027 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				CF65E2751C5CB7F100E8EE7B /* SJCustomLayerViewController */,
 				CF65E26E1C5CAE8000E8EE7B /* SJLayerAnimationViewController */,
 				CF65E26A1C5CAC5200E8EE7B /* SJDisplayLinkViewController */,
 				CF65E2621C5C995200E8EE7B /* SJAnimationGroupViewController */,
@@ -512,8 +530,10 @@
 				CF7240131C4AACBA00EF4027 /* POPDecayAnimation.mm in Sources */,
 				CF72400F1C4AACBA00EF4027 /* POPAnimator.mm in Sources */,
 				CF6249E81C566681005D3C36 /* UIView+GlowView.m in Sources */,
+				CF65E27B1C5CB8A800E8EE7B /* SJCustomLayer.m in Sources */,
 				CF7240221C4B46FA00EF4027 /* SJMath.m in Sources */,
 				CF72400E1C4AACBA00EF4027 /* POPAnimationTracer.mm in Sources */,
+				CF65E2781C5CB7FD00E8EE7B /* SJCustomLayerViewController.m in Sources */,
 				CF72400B1C4AACBA00EF4027 /* POPAnimationEvent.mm in Sources */,
 				CF7240101C4AACBA00EF4027 /* POPBasicAnimation.mm in Sources */,
 				CF723F891C4A8AD000EF4027 /* main.m in Sources */,
