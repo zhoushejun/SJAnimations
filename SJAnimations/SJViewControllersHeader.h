@@ -21,5 +21,6 @@
 #import "SJBasicAnimationViewController.h"
 #import "SJKeyframeAnimationViewController.h"
 #import "SJAnimationGroupViewController.h"
+#import "SJTransitionViewController.h"
 
 #endif /* SJViewControllersHeader_h */

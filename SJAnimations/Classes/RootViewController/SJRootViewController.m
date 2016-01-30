@@ -76,7 +76,7 @@
                            [SJItem itemWithName:@"POP-基础动画" object:[SJBasicAnimationViewController class]],
                            [SJItem itemWithName:@"POP-关键帧动画" object:[SJKeyframeAnimationViewController class]],
                            [SJItem itemWithName:@"POP-动画组" object:[SJAnimationGroupViewController class]],
-                           [SJItem itemWithName:@"POP-按钮动画" object:[SJButtonPressViewController class]],
+                           [SJItem itemWithName:@"POP-转场动画" object:[SJTransitionViewController class]],
                            [SJItem itemWithName:@"POP-按钮动画" object:[SJButtonPressViewController class]],
                            [SJItem itemWithName:@"POP-按钮动画" object:[SJButtonPressViewController class]],
                            [SJItem itemWithName:@"POP-按钮动画" object:[SJButtonPressViewController class]],

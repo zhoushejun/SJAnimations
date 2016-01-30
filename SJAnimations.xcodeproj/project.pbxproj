@@ -12,6 +12,7 @@
 		CF65E25D1C5C8DE700E8EE7B /* SJSimpleAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF65E25C1C5C8DE700E8EE7B /* SJSimpleAnimationViewController.m */; };
 		CF65E2611C5C966000E8EE7B /* SJKeyframeAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF65E2601C5C966000E8EE7B /* SJKeyframeAnimationViewController.m */; };
 		CF65E2651C5C996600E8EE7B /* SJAnimationGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF65E2641C5C996600E8EE7B /* SJAnimationGroupViewController.m */; };
+		CF65E2691C5CA9B100E8EE7B /* SJTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF65E2681C5CA9B100E8EE7B /* SJTransitionViewController.m */; };
 		CF723F891C4A8AD000EF4027 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF723F881C4A8AD000EF4027 /* main.m */; };
 		CF723F8C1C4A8AD000EF4027 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF723F8B1C4A8AD000EF4027 /* AppDelegate.m */; };
 		CF723F921C4A8AD000EF4027 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF723F901C4A8AD000EF4027 /* Main.storyboard */; };
@@ -55,6 +56,8 @@
 		CF65E2601C5C966000E8EE7B /* SJKeyframeAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJKeyframeAnimationViewController.m; sourceTree = "<group>"; };
 		CF65E2631C5C996600E8EE7B /* SJAnimationGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJAnimationGroupViewController.h; sourceTree = "<group>"; };
 		CF65E2641C5C996600E8EE7B /* SJAnimationGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJAnimationGroupViewController.m; sourceTree = "<group>"; };
+		CF65E2671C5CA9B100E8EE7B /* SJTransitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJTransitionViewController.h; sourceTree = "<group>"; };
+		CF65E2681C5CA9B100E8EE7B /* SJTransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJTransitionViewController.m; sourceTree = "<group>"; };
 		CF723F841C4A8AD000EF4027 /* SJAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SJAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF723F881C4A8AD000EF4027 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CF723F8A1C4A8AD000EF4027 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -188,6 +191,15 @@
 			path = SJAnimationGroupViewController;
 			sourceTree = "<group>";
 		};
+		CF65E2661C5CA99E00E8EE7B /* SJTransitionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CF65E2671C5CA9B100E8EE7B /* SJTransitionViewController.h */,
+				CF65E2681C5CA9B100E8EE7B /* SJTransitionViewController.m */,
+			);
+			path = SJTransitionViewController;
+			sourceTree = "<group>";
+		};
 		CF723F7B1C4A8AD000EF4027 = {
 			isa = PBXGroup;
 			children = (
@@ -289,6 +301,7 @@
 				CF65E2561C5C8DB300E8EE7B /* SJBasicAnimationViewController */,
 				CF65E2571C5C8DB300E8EE7B /* SJSimpleAnimationViewController */,
 				CF72401B1C4AB32F00EF4027 /* SJButtonPressViewController */,
+				CF65E2661C5CA99E00E8EE7B /* SJTransitionViewController */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -496,6 +509,7 @@
 				CF723FCC1C4AA7BF00EF4027 /* UIFont+SJFonts.m in Sources */,
 				CF723FBC1C4A9B3600EF4027 /* SJItem.m in Sources */,
 				CF7240111C4AACBA00EF4027 /* POPCGUtils.mm in Sources */,
+				CF65E2691C5CA9B100E8EE7B /* SJTransitionViewController.m in Sources */,
 				CF72401E1C4AB32F00EF4027 /* SJButtonPressViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

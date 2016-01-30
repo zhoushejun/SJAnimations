@@ -52,6 +52,7 @@
                         <segue destination="hPm-03-2fU" kind="show" identifier="toSJBasicAnimationViewControllerSegue" id="XfS-Xm-5TA"/>
                         <segue destination="4GI-he-dNg" kind="show" identifier="toSJKeyframeAnimationViewControllerSegue" id="fll-vq-GZL"/>
                         <segue destination="OfZ-nB-EUg" kind="show" identifier="toSJAnimationGroupViewControllerSegue" id="g2G-cN-v4V"/>
+                        <segue destination="vXY-RH-dO7" kind="show" identifier="toSJTransitionViewControllerSegue" id="Sd1-3h-tt1"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="38h-br-mQK" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -152,6 +153,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iI1-U9-w3O" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3348" y="-380"/>
+        </scene>
+        <!--Transition View Controller-->
+        <scene sceneID="efn-41-qkj">
+            <objects>
+                <viewController storyboardIdentifier="SJTransitionViewController" id="vXY-RH-dO7" customClass="SJTransitionViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9te-gu-YPh"/>
+                        <viewControllerLayoutGuide type="bottom" id="g4T-LU-v9m"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HiH-u5-gfe">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="E7w-PT-2qV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3702" y="-380"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="e20-eI-4eV">
