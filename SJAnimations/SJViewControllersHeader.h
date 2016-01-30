@@ -23,5 +23,6 @@
 #import "SJAnimationGroupViewController.h"
 #import "SJTransitionViewController.h"
 #import "SJDisplayLinkViewController.h"
+#import "SJLayerAnimationViewController.h"
 
 #endif /* SJViewControllersHeader_h */
