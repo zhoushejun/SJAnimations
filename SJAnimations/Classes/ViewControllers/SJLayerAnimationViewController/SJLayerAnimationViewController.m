@@ -29,6 +29,21 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)dealloc {
+    self.subLayer.delegate = nil;
+}
+
+#pragma mark - CALayerDelegate
+
+- (void)drawLayer:(CALayer *)layer inContext:(CGContextRef)ctx {
+    CGContextSaveGState(ctx);
+    CGContextScaleCTM(ctx, 1, -1);
+    CGContextTranslateCTM(ctx, 0, -WIDTH);
+    UIImage *image = [UIImage imageNamed:@"photo.png"];
+    CGContextDrawImage(ctx, CGRectMake(0, 0, WIDTH, WIDTH), image.CGImage);
+    CGContextRestoreGState(ctx);
+}
+
 #pragma mark -
 
 - (void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
@@ -57,8 +72,15 @@
     layer.shadowColor = [UIColor grayColor].CGColor;
     layer.shadowOffset = CGSizeMake(2, 2);
     layer.shadowOpacity = 0.9;
+    
+//    layer.borderColor = [UIColor whiteColor].CGColor;
+//    layer.borderWidth = 2;
+//    layer.masksToBounds = YES;
+//    layer.delegate = self;
+
     self.subLayer = layer;
     [self.view.layer addSublayer:layer];
+    [layer setNeedsDisplay];
 }
 
 @end
