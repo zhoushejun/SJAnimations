@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF3964BC1C771D2B00608273 /* SJGradientLayerAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3964BB1C771D2B00608273 /* SJGradientLayerAnimationViewController.m */; };
+		CF3964BF1C771E0F00608273 /* SJGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3964BE1C771E0F00608273 /* SJGradientView.m */; };
 		CF6249E81C566681005D3C36 /* UIView+GlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6249E71C566681005D3C36 /* UIView+GlowView.m */; };
 		CF65E25A1C5C8DD200E8EE7B /* SJBasicAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF65E2591C5C8DD200E8EE7B /* SJBasicAnimationViewController.m */; };
 		CF65E25D1C5C8DE700E8EE7B /* SJSimpleAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF65E25C1C5C8DE700E8EE7B /* SJSimpleAnimationViewController.m */; };
@@ -50,6 +52,10 @@
 
 /* Begin PBXFileReference section */
 		CF02C2471C4B95AC00236F92 /* DebugLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugLog.h; sourceTree = "<group>"; };
+		CF3964BA1C771D2B00608273 /* SJGradientLayerAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJGradientLayerAnimationViewController.h; sourceTree = "<group>"; };
+		CF3964BB1C771D2B00608273 /* SJGradientLayerAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJGradientLayerAnimationViewController.m; sourceTree = "<group>"; };
+		CF3964BD1C771E0F00608273 /* SJGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJGradientView.h; sourceTree = "<group>"; };
+		CF3964BE1C771E0F00608273 /* SJGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJGradientView.m; sourceTree = "<group>"; };
 		CF6249E61C566681005D3C36 /* UIView+GlowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GlowView.h"; sourceTree = "<group>"; };
 		CF6249E71C566681005D3C36 /* UIView+GlowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GlowView.m"; sourceTree = "<group>"; };
 		CF65E2581C5C8DD200E8EE7B /* SJBasicAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJBasicAnimationViewController.h; sourceTree = "<group>"; };
@@ -158,6 +164,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CF3964B91C771D0300608273 /* SJGradientLayerAnimationViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CF3964BA1C771D2B00608273 /* SJGradientLayerAnimationViewController.h */,
+				CF3964BB1C771D2B00608273 /* SJGradientLayerAnimationViewController.m */,
+				CF3964BD1C771E0F00608273 /* SJGradientView.h */,
+				CF3964BE1C771E0F00608273 /* SJGradientView.m */,
+			);
+			path = SJGradientLayerAnimationViewController;
+			sourceTree = "<group>";
+		};
 		CF6249E51C566681005D3C36 /* UIView+Glow */ = {
 			isa = PBXGroup;
 			children = (
@@ -341,6 +358,7 @@
 				CF65E26E1C5CAE8000E8EE7B /* SJLayerAnimationViewController */,
 				CF65E26A1C5CAC5200E8EE7B /* SJDisplayLinkViewController */,
 				CF65E2621C5C995200E8EE7B /* SJAnimationGroupViewController */,
+				CF3964B91C771D0300608273 /* SJGradientLayerAnimationViewController */,
 				CF65E25E1C5C964100E8EE7B /* SJKeyframeAnimationViewController */,
 				CF65E2561C5C8DB300E8EE7B /* SJBasicAnimationViewController */,
 				CF65E2571C5C8DB300E8EE7B /* SJSimpleAnimationViewController */,
@@ -528,6 +546,7 @@
 				CF72400C1C4AACBA00EF4027 /* POPAnimationExtras.mm in Sources */,
 				CF723F8C1C4A8AD000EF4027 /* AppDelegate.m in Sources */,
 				CF7240131C4AACBA00EF4027 /* POPDecayAnimation.mm in Sources */,
+				CF3964BF1C771E0F00608273 /* SJGradientView.m in Sources */,
 				CF72400F1C4AACBA00EF4027 /* POPAnimator.mm in Sources */,
 				CF6249E81C566681005D3C36 /* UIView+GlowView.m in Sources */,
 				CF65E27B1C5CB8A800E8EE7B /* SJCustomLayer.m in Sources */,
@@ -537,6 +556,7 @@
 				CF72400B1C4AACBA00EF4027 /* POPAnimationEvent.mm in Sources */,
 				CF7240101C4AACBA00EF4027 /* POPBasicAnimation.mm in Sources */,
 				CF723F891C4A8AD000EF4027 /* main.m in Sources */,
+				CF3964BC1C771D2B00608273 /* SJGradientLayerAnimationViewController.m in Sources */,
 				CF7240091C4AACBA00EF4027 /* POPAnimatableProperty.mm in Sources */,
 				CF7240181C4AACBA00EF4027 /* POPSpringAnimation.mm in Sources */,
 				CF65E2611C5C966000E8EE7B /* SJKeyframeAnimationViewController.m in Sources */,

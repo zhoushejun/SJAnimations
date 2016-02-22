@@ -56,6 +56,7 @@
                         <segue destination="rLq-7L-jA9" kind="show" identifier="toSJDisplayLinkViewControllerSegue" id="Gqr-0i-2Y9"/>
                         <segue destination="vyS-sn-tkS" kind="show" identifier="toSJLayerAnimationViewControllerSegue" id="jjx-eC-C6w"/>
                         <segue destination="cb9-eO-Byb" kind="show" identifier="toSJCustomLayerViewControllerSegue" id="fao-ay-wP7"/>
+                        <segue destination="KD5-QQ-upV" kind="show" identifier="toSJGradientLayerAnimationViewControllerSegue" id="ESq-II-g80"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="38h-br-mQK" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -175,6 +176,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zsc-ws-TfK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4058" y="-380"/>
+        </scene>
+        <!--Gradient Layer Animation View Controller-->
+        <scene sceneID="IRk-fa-oyG">
+            <objects>
+                <viewController storyboardIdentifier="SJGradientLayerAnimationViewController" id="KD5-QQ-upV" customClass="SJGradientLayerAnimationViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mGf-Y0-Nm2"/>
+                        <viewControllerLayoutGuide type="bottom" id="9ae-K7-OFs"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pjf-6j-ZKM">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rzV-w0-28z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1888" y="453"/>
         </scene>
         <!--Layer Animation View Controller-->
         <scene sceneID="D8K-dA-Qev">
