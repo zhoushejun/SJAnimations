@@ -25,5 +25,6 @@
 #import "SJDisplayLinkViewController.h"
 #import "SJLayerAnimationViewController.h"
 #import "SJCustomLayerViewController.h"
+#import "SJGradientLayerAnimationViewController.h"
 
 #endif /* SJViewControllersHeader_h */
