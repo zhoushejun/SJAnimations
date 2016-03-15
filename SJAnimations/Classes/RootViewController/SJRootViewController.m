@@ -59,8 +59,9 @@
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     
     SJItem *item = self.items[indexPath.row];
-    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-    UIViewController *viewController = [storyboard instantiateViewControllerWithIdentifier:NSStringFromClass(item.object)];
+//    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    UIViewController *viewController = [[item.object alloc] init];
+    viewController.view.backgroundColor = [UIColor whiteColor];
     viewController.title = item.name;
     [self.navigationController pushViewController:viewController animated:YES];
 }

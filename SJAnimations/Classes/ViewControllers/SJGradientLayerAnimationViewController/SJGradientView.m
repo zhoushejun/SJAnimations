@@ -70,7 +70,9 @@
 }
 
 - (void)animationDidStop:(CAAnimation *)animation finished:(BOOL)flag {
-    [self performAnimation];
+    if (flag) {
+        [self performAnimation];
+    }
 }
 
 - (void)setProgress:(CGFloat)value {
