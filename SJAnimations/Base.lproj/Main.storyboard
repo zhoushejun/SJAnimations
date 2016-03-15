@@ -25,14 +25,14 @@
                                             <rect key="frame" x="15" y="6" width="31.5" height="19.5"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Detail" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="HeH-J3-Qim">
                                             <rect key="frame" x="15" y="25.5" width="30.5" height="13.5"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
@@ -46,212 +46,10 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="SJAnimations" id="lF1-xe-drR"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
-                    <connections>
-                        <segue destination="29J-yL-LAV" kind="show" identifier="toSJButtonPressViewControllerSegue" id="pwe-lp-Ien"/>
-                        <segue destination="hDn-rr-VTG" kind="show" identifier="toSJSimpleAnimationViewControllerSegue" id="tcD-RG-XB6"/>
-                        <segue destination="hPm-03-2fU" kind="show" identifier="toSJBasicAnimationViewControllerSegue" id="XfS-Xm-5TA"/>
-                        <segue destination="4GI-he-dNg" kind="show" identifier="toSJKeyframeAnimationViewControllerSegue" id="fll-vq-GZL"/>
-                        <segue destination="OfZ-nB-EUg" kind="show" identifier="toSJAnimationGroupViewControllerSegue" id="g2G-cN-v4V"/>
-                        <segue destination="vXY-RH-dO7" kind="show" identifier="toSJTransitionViewControllerSegue" id="Sd1-3h-tt1"/>
-                        <segue destination="rLq-7L-jA9" kind="show" identifier="toSJDisplayLinkViewControllerSegue" id="Gqr-0i-2Y9"/>
-                        <segue destination="vyS-sn-tkS" kind="show" identifier="toSJLayerAnimationViewControllerSegue" id="jjx-eC-C6w"/>
-                        <segue destination="cb9-eO-Byb" kind="show" identifier="toSJCustomLayerViewControllerSegue" id="fao-ay-wP7"/>
-                        <segue destination="KD5-QQ-upV" kind="show" identifier="toSJGradientLayerAnimationViewControllerSegue" id="ESq-II-g80"/>
-                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="38h-br-mQK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1382" y="183"/>
-        </scene>
-        <!--Button Press View Controller-->
-        <scene sceneID="8La-bL-1fm">
-            <objects>
-                <viewController storyboardIdentifier="SJButtonPressViewController" id="29J-yL-LAV" customClass="SJButtonPressViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="QuY-bL-RWT"/>
-                        <viewControllerLayoutGuide type="bottom" id="9gc-Di-LnH"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="l9w-9C-BcE">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="6ln-wg-FAr" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1888" y="-380"/>
-        </scene>
-        <!--Simple Animation View Controller-->
-        <scene sceneID="iVk-LN-R7C">
-            <objects>
-                <viewController storyboardIdentifier="SJSimpleAnimationViewController" id="hDn-rr-VTG" customClass="SJSimpleAnimationViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jSk-4L-OlL"/>
-                        <viewControllerLayoutGuide type="bottom" id="Bh5-Qz-pRi"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="3xU-Bd-IIj">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="pYf-G2-NNz" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2264" y="-380"/>
-        </scene>
-        <!--Basic Animation View Controller-->
-        <scene sceneID="uF4-gc-ztH">
-            <objects>
-                <viewController storyboardIdentifier="SJBasicAnimationViewController" id="hPm-03-2fU" customClass="SJBasicAnimationViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="xoy-UW-lSM"/>
-                        <viewControllerLayoutGuide type="bottom" id="q5p-YE-tW6"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="syO-he-TbE">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="kJ1-hf-Ghr" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2626" y="-380"/>
-        </scene>
-        <!--Keyframe Animation View Controller-->
-        <scene sceneID="5Qc-Wj-I9Y">
-            <objects>
-                <viewController storyboardIdentifier="SJKeyframeAnimationViewController" id="4GI-he-dNg" customClass="SJKeyframeAnimationViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="DeL-k8-9ye"/>
-                        <viewControllerLayoutGuide type="bottom" id="tbX-Kh-bLd"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="0zJ-WU-DMk">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="lTo-Dr-l9F" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2980" y="-380"/>
-        </scene>
-        <!--Animation Group View Controller-->
-        <scene sceneID="NmP-xj-kLK">
-            <objects>
-                <viewController storyboardIdentifier="SJAnimationGroupViewController" id="OfZ-nB-EUg" customClass="SJAnimationGroupViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="1Ft-vR-NvQ"/>
-                        <viewControllerLayoutGuide type="bottom" id="94y-CY-guh"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="qvE-1x-ms5">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="iI1-U9-w3O" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3348" y="-380"/>
-        </scene>
-        <!--Display Link View Controller-->
-        <scene sceneID="dhP-jp-doT">
-            <objects>
-                <viewController storyboardIdentifier="SJDisplayLinkViewController" id="rLq-7L-jA9" customClass="SJDisplayLinkViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="4Ip-IK-hvq"/>
-                        <viewControllerLayoutGuide type="bottom" id="n6x-mv-C7u"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="fZ8-UZ-mpd">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Zsc-ws-TfK" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4058" y="-380"/>
-        </scene>
-        <!--Gradient Layer Animation View Controller-->
-        <scene sceneID="IRk-fa-oyG">
-            <objects>
-                <viewController storyboardIdentifier="SJGradientLayerAnimationViewController" id="KD5-QQ-upV" customClass="SJGradientLayerAnimationViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="mGf-Y0-Nm2"/>
-                        <viewControllerLayoutGuide type="bottom" id="9ae-K7-OFs"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="pjf-6j-ZKM">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="rzV-w0-28z" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1888" y="453"/>
-        </scene>
-        <!--Layer Animation View Controller-->
-        <scene sceneID="D8K-dA-Qev">
-            <objects>
-                <viewController storyboardIdentifier="SJLayerAnimationViewController" id="vyS-sn-tkS" customClass="SJLayerAnimationViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jrC-4k-5Xl"/>
-                        <viewControllerLayoutGuide type="bottom" id="ka5-Ux-eqA"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="ng7-U4-5eB">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="mc0-ce-ARC" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4418" y="-380"/>
-        </scene>
-        <!--Custom Layer View Controller-->
-        <scene sceneID="vNW-Hk-udz">
-            <objects>
-                <viewController storyboardIdentifier="SJCustomLayerViewController" id="cb9-eO-Byb" customClass="SJCustomLayerViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="7de-R2-rSo"/>
-                        <viewControllerLayoutGuide type="bottom" id="2TH-gU-Pvw"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="MoQ-fY-QR7">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="u0Y-iJ-29j" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4778" y="-380"/>
-        </scene>
-        <!--Transition View Controller-->
-        <scene sceneID="efn-41-qkj">
-            <objects>
-                <viewController storyboardIdentifier="SJTransitionViewController" id="vXY-RH-dO7" customClass="SJTransitionViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="9te-gu-YPh"/>
-                        <viewControllerLayoutGuide type="bottom" id="g4T-LU-v9m"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="HiH-u5-gfe">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="E7w-PT-2qV" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3702" y="-380"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="e20-eI-4eV">
