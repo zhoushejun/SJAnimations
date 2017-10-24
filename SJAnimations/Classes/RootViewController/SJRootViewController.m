@@ -82,7 +82,7 @@
                            [SJItem itemWithName:@"CALayer图层动画" object:[SJLayerAnimationViewController class]],
                            [SJItem itemWithName:@"自定义图层动画" object:[SJCustomLayerViewController class]],
                            [SJItem itemWithName:@"CAGradientLayer阶梯动画" object:[SJGradientLayerAnimationViewController class]],
-                           [SJItem itemWithName:@"按钮动画" object:[SJButtonPressViewController class]],
+                           [SJItem itemWithName:@"自动黏贴边界效果动画" object:[SJKeepBoundsViewController class]],
                            [SJItem itemWithName:@"按钮动画" object:[SJButtonPressViewController class]],
                            [SJItem itemWithName:@"按钮动画" object:[SJButtonPressViewController class]],
                            [SJItem itemWithName:@"按钮动画" object:[SJButtonPressViewController class]],
