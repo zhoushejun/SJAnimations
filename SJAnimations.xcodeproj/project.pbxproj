@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18300D151F9F8866009670EA /* SJKeepBoundsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18300D121F9F83D4009670EA /* SJKeepBoundsViewController.m */; };
+		18300D161F9F8869009670EA /* UIView+KeepBounds.m in Sources */ = {isa = PBXBuildFile; fileRef = 18300D141F9F83D4009670EA /* UIView+KeepBounds.m */; };
 		CF3964BC1C771D2B00608273 /* SJGradientLayerAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3964BB1C771D2B00608273 /* SJGradientLayerAnimationViewController.m */; };
 		CF3964BF1C771E0F00608273 /* SJGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3964BE1C771E0F00608273 /* SJGradientView.m */; };
 		CF6249E81C566681005D3C36 /* UIView+GlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6249E71C566681005D3C36 /* UIView+GlowView.m */; };
@@ -54,6 +56,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18300D111F9F83D4009670EA /* SJKeepBoundsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SJKeepBoundsViewController.h; sourceTree = "<group>"; };
+		18300D121F9F83D4009670EA /* SJKeepBoundsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJKeepBoundsViewController.m; sourceTree = "<group>"; };
+		18300D131F9F83D4009670EA /* UIView+KeepBounds.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+KeepBounds.h"; sourceTree = "<group>"; };
+		18300D141F9F83D4009670EA /* UIView+KeepBounds.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+KeepBounds.m"; sourceTree = "<group>"; };
 		CF02C2471C4B95AC00236F92 /* DebugLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugLog.h; sourceTree = "<group>"; };
 		CF3964BA1C771D2B00608273 /* SJGradientLayerAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJGradientLayerAnimationViewController.h; sourceTree = "<group>"; };
 		CF3964BB1C771D2B00608273 /* SJGradientLayerAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJGradientLayerAnimationViewController.m; sourceTree = "<group>"; };
@@ -173,6 +179,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18300D0E1F9F8313009670EA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18300D0F1F9F8313009670EA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18300D101F9F83D4009670EA /* SJKeepBoundsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				18300D111F9F83D4009670EA /* SJKeepBoundsViewController.h */,
+				18300D121F9F83D4009670EA /* SJKeepBoundsViewController.m */,
+				18300D131F9F83D4009670EA /* UIView+KeepBounds.h */,
+				18300D141F9F83D4009670EA /* UIView+KeepBounds.m */,
+			);
+			path = SJKeepBoundsViewController;
+			sourceTree = "<group>";
+		};
 		CF3964B91C771D0300608273 /* SJGradientLayerAnimationViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -314,27 +345,13 @@
 		CF723F9E1C4A8B1900EF4027 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				CF723F9F1C4A8B1900EF4027 /* Model */,
-				CF723FA11C4A8B1900EF4027 /* View */,
+				18300D0E1F9F8313009670EA /* Model */,
+				18300D0F1F9F8313009670EA /* View */,
 				CF723FB11C4A926500EF4027 /* RootViewController */,
 				CF723FB41C4A926500EF4027 /* ViewControllers */,
 				CF723FAB1C4A91E900EF4027 /* Tools */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		CF723F9F1C4A8B1900EF4027 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		CF723FA11C4A8B1900EF4027 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		CF723FAB1C4A91E900EF4027 /* Tools */ = {
@@ -363,16 +380,17 @@
 		CF723FB41C4A926500EF4027 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				CF65E2621C5C995200E8EE7B /* SJAnimationGroupViewController */,
+				CF65E2561C5C8DB300E8EE7B /* SJBasicAnimationViewController */,
+				CF72401B1C4AB32F00EF4027 /* SJButtonPressViewController */,
 				CFC17EAF1C893CE000A67423 /* SJCustomTransitionsViewController */,
 				CF65E2751C5CB7F100E8EE7B /* SJCustomLayerViewController */,
-				CF65E26E1C5CAE8000E8EE7B /* SJLayerAnimationViewController */,
 				CF65E26A1C5CAC5200E8EE7B /* SJDisplayLinkViewController */,
-				CF65E2621C5C995200E8EE7B /* SJAnimationGroupViewController */,
+				CF65E26E1C5CAE8000E8EE7B /* SJLayerAnimationViewController */,
 				CF3964B91C771D0300608273 /* SJGradientLayerAnimationViewController */,
+				18300D101F9F83D4009670EA /* SJKeepBoundsViewController */,
 				CF65E25E1C5C964100E8EE7B /* SJKeyframeAnimationViewController */,
-				CF65E2561C5C8DB300E8EE7B /* SJBasicAnimationViewController */,
 				CF65E2571C5C8DB300E8EE7B /* SJSimpleAnimationViewController */,
-				CF72401B1C4AB32F00EF4027 /* SJButtonPressViewController */,
 				CF65E2661C5CA99E00E8EE7B /* SJTransitionViewController */,
 			);
 			path = ViewControllers;
@@ -570,11 +588,13 @@
 				CF723F8C1C4A8AD000EF4027 /* AppDelegate.m in Sources */,
 				CF7240131C4AACBA00EF4027 /* POPDecayAnimation.mm in Sources */,
 				CF3964BF1C771E0F00608273 /* SJGradientView.m in Sources */,
+				18300D161F9F8869009670EA /* UIView+KeepBounds.m in Sources */,
 				CF72400F1C4AACBA00EF4027 /* POPAnimator.mm in Sources */,
 				CF6249E81C566681005D3C36 /* UIView+GlowView.m in Sources */,
 				CF65E27B1C5CB8A800E8EE7B /* SJCustomLayer.m in Sources */,
 				CF7240221C4B46FA00EF4027 /* SJMath.m in Sources */,
 				CF72400E1C4AACBA00EF4027 /* POPAnimationTracer.mm in Sources */,
+				18300D151F9F8866009670EA /* SJKeepBoundsViewController.m in Sources */,
 				CF65E2781C5CB7FD00E8EE7B /* SJCustomLayerViewController.m in Sources */,
 				CF72400B1C4AACBA00EF4027 /* POPAnimationEvent.mm in Sources */,
 				CF7240101C4AACBA00EF4027 /* POPBasicAnimation.mm in Sources */,
@@ -666,7 +686,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -704,7 +724,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
