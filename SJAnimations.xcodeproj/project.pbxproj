@@ -179,20 +179,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		18300D0E1F9F8313009670EA /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		18300D0F1F9F8313009670EA /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
 		18300D101F9F83D4009670EA /* SJKeepBoundsViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -202,6 +188,20 @@
 				18300D141F9F83D4009670EA /* UIView+KeepBounds.m */,
 			);
 			path = SJKeepBoundsViewController;
+			sourceTree = "<group>";
+		};
+		C62489ED1FA0208400BA99C8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C62489EE1FA0208400BA99C8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		CF3964B91C771D0300608273 /* SJGradientLayerAnimationViewController */ = {
@@ -345,8 +345,8 @@
 		CF723F9E1C4A8B1900EF4027 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				18300D0E1F9F8313009670EA /* Model */,
-				18300D0F1F9F8313009670EA /* View */,
+				C62489EE1FA0208400BA99C8 /* Model */,
+				C62489ED1FA0208400BA99C8 /* View */,
 				CF723FB11C4A926500EF4027 /* RootViewController */,
 				CF723FB41C4A926500EF4027 /* ViewControllers */,
 				CF723FAB1C4A91E900EF4027 /* Tools */,
