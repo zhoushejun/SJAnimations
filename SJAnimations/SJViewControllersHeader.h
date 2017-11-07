@@ -27,5 +27,6 @@
 #import "SJCustomLayerViewController.h"
 #import "SJGradientLayerAnimationViewController.h"
 #import "SJKeepBoundsViewController.h"
+#import "SJPolygonViewController.h"
 
 #endif /* SJViewControllersHeader_h */
