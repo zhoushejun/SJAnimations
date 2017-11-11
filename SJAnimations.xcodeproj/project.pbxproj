@@ -16,6 +16,8 @@
 		C6D7E35B1FB15B8600604A9E /* SJPolygonButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D7E35A1FB15B8600604A9E /* SJPolygonButton.m */; };
 		C6D7E35E1FB15CB300604A9E /* UIImage+GetPixelRGBA.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D7E35D1FB15CB300604A9E /* UIImage+GetPixelRGBA.m */; };
 		C6D7E3601FB15EF500604A9E /* SJPolygonButton.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6D7E35F1FB15EF500604A9E /* SJPolygonButton.xcassets */; };
+		C6F4645F1FB6AA070053D682 /* UIButton+Emitter.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F4645E1FB6AA070053D682 /* UIButton+Emitter.m */; };
+		C6F464611FB6AAE30053D682 /* EmitterLayer.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6F464601FB6AAE30053D682 /* EmitterLayer.xcassets */; };
 		CF3964BC1C771D2B00608273 /* SJGradientLayerAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3964BB1C771D2B00608273 /* SJGradientLayerAnimationViewController.m */; };
 		CF3964BF1C771E0F00608273 /* SJGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3964BE1C771E0F00608273 /* SJGradientView.m */; };
 		CF6249E81C566681005D3C36 /* UIView+GlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6249E71C566681005D3C36 /* UIView+GlowView.m */; };
@@ -81,6 +83,9 @@
 		C6D7E35C1FB15CB300604A9E /* UIImage+GetPixelRGBA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+GetPixelRGBA.h"; sourceTree = "<group>"; };
 		C6D7E35D1FB15CB300604A9E /* UIImage+GetPixelRGBA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GetPixelRGBA.m"; sourceTree = "<group>"; };
 		C6D7E35F1FB15EF500604A9E /* SJPolygonButton.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = SJPolygonButton.xcassets; sourceTree = "<group>"; };
+		C6F4645D1FB6AA070053D682 /* UIButton+Emitter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Emitter.h"; sourceTree = "<group>"; };
+		C6F4645E1FB6AA070053D682 /* UIButton+Emitter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Emitter.m"; sourceTree = "<group>"; };
+		C6F464601FB6AAE30053D682 /* EmitterLayer.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = EmitterLayer.xcassets; sourceTree = "<group>"; };
 		CF02C2471C4B95AC00236F92 /* DebugLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugLog.h; sourceTree = "<group>"; };
 		CF3964BA1C771D2B00608273 /* SJGradientLayerAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJGradientLayerAnimationViewController.h; sourceTree = "<group>"; };
 		CF3964BB1C771D2B00608273 /* SJGradientLayerAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJGradientLayerAnimationViewController.m; sourceTree = "<group>"; };
@@ -229,6 +234,9 @@
 			children = (
 				C640C29C1FB69A4D009EBE7C /* SJEmitterLayerViewController.h */,
 				C640C29D1FB69A4D009EBE7C /* SJEmitterLayerViewController.m */,
+				C6F4645D1FB6AA070053D682 /* UIButton+Emitter.h */,
+				C6F4645E1FB6AA070053D682 /* UIButton+Emitter.m */,
+				C6F464601FB6AAE30053D682 /* EmitterLayer.xcassets */,
 			);
 			path = SJEmitterLayerViewController;
 			sourceTree = "<group>";
@@ -639,6 +647,7 @@
 				CF723F971C4A8AD000EF4027 /* LaunchScreen.storyboard in Resources */,
 				C6D7E3601FB15EF500604A9E /* SJPolygonButton.xcassets in Resources */,
 				CF723F941C4A8AD000EF4027 /* Assets.xcassets in Resources */,
+				C6F464611FB6AAE30053D682 /* EmitterLayer.xcassets in Resources */,
 				CF723F921C4A8AD000EF4027 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -684,6 +693,7 @@
 				CF65E2741C5CAEBD00E8EE7B /* SJLayerAnimationViewController.m in Sources */,
 				CF723FBF1C4A9EA400EF4027 /* SJRootViewCell.m in Sources */,
 				CF72400A1C4AACBA00EF4027 /* POPAnimation.mm in Sources */,
+				C6F4645F1FB6AA070053D682 /* UIButton+Emitter.m in Sources */,
 				CF7240161C4AACBA00EF4027 /* POPMath.mm in Sources */,
 				CF65E26D1C5CAC6100E8EE7B /* SJDisplayLinkViewController.m in Sources */,
 				C6D7E3581FB159CD00604A9E /* SJPolygonViewController.m in Sources */,
