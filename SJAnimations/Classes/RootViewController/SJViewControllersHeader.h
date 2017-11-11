@@ -16,17 +16,21 @@
 #ifndef SJViewControllersHeader_h
 #define SJViewControllersHeader_h
 
-#import "SJButtonPressViewController.h"
-#import "SJSimpleAnimationViewController.h"
-#import "SJBasicAnimationViewController.h"
-#import "SJKeyframeAnimationViewController.h"
 #import "SJAnimationGroupViewController.h"
-#import "SJTransitionViewController.h"
-#import "SJDisplayLinkViewController.h"
-#import "SJLayerAnimationViewController.h"
+#import "SJBasicAnimationViewController.h"
+#import "SJButtonPressViewController.h"
 #import "SJCustomLayerViewController.h"
+#import "SJCustomTransitionsViewController.h"
+#import "SJDisplayLinkViewController.h"
+#import "SJEmitterLayerViewController.h"
+#import "SJKeyframeAnimationViewController.h"
+#import "SJLayerAnimationViewController.h"
 #import "SJGradientLayerAnimationViewController.h"
 #import "SJKeepBoundsViewController.h"
 #import "SJPolygonViewController.h"
+#import "SJReplicatorLayerViewController.h"
+#import "SJShapeLayerViewController.h"
+#import "SJSimpleAnimationViewController.h"
+#import "SJTransitionViewController.h"
 
 #endif /* SJViewControllersHeader_h */

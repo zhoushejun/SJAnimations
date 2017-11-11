@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		18300D151F9F8866009670EA /* SJKeepBoundsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18300D121F9F83D4009670EA /* SJKeepBoundsViewController.m */; };
 		18300D161F9F8869009670EA /* UIView+KeepBounds.m in Sources */ = {isa = PBXBuildFile; fileRef = 18300D141F9F83D4009670EA /* UIView+KeepBounds.m */; };
+		C640C29E1FB69A4D009EBE7C /* SJEmitterLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C640C29D1FB69A4D009EBE7C /* SJEmitterLayerViewController.m */; };
+		C640C2A31FB69AB6009EBE7C /* SJReplicatorLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C640C2A21FB69AB6009EBE7C /* SJReplicatorLayerViewController.m */; };
+		C640C2A61FB69C73009EBE7C /* SJShapeLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C640C2A51FB69C73009EBE7C /* SJShapeLayerViewController.m */; };
 		C6D7E3581FB159CD00604A9E /* SJPolygonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D7E3571FB159CD00604A9E /* SJPolygonViewController.m */; };
 		C6D7E35B1FB15B8600604A9E /* SJPolygonButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D7E35A1FB15B8600604A9E /* SJPolygonButton.m */; };
 		C6D7E35E1FB15CB300604A9E /* UIImage+GetPixelRGBA.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D7E35D1FB15CB300604A9E /* UIImage+GetPixelRGBA.m */; };
@@ -64,6 +67,13 @@
 		18300D121F9F83D4009670EA /* SJKeepBoundsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJKeepBoundsViewController.m; sourceTree = "<group>"; };
 		18300D131F9F83D4009670EA /* UIView+KeepBounds.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+KeepBounds.h"; sourceTree = "<group>"; };
 		18300D141F9F83D4009670EA /* UIView+KeepBounds.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+KeepBounds.m"; sourceTree = "<group>"; };
+		C640C29C1FB69A4D009EBE7C /* SJEmitterLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SJEmitterLayerViewController.h; sourceTree = "<group>"; };
+		C640C29D1FB69A4D009EBE7C /* SJEmitterLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJEmitterLayerViewController.m; sourceTree = "<group>"; };
+		C640C2A11FB69AB6009EBE7C /* SJReplicatorLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SJReplicatorLayerViewController.h; sourceTree = "<group>"; };
+		C640C2A21FB69AB6009EBE7C /* SJReplicatorLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJReplicatorLayerViewController.m; sourceTree = "<group>"; };
+		C640C2A41FB69C73009EBE7C /* SJShapeLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SJShapeLayerViewController.h; sourceTree = "<group>"; };
+		C640C2A51FB69C73009EBE7C /* SJShapeLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJShapeLayerViewController.m; sourceTree = "<group>"; };
+		C640C2A71FB69DF9009EBE7C /* SJViewControllersHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJViewControllersHeader.h; sourceTree = "<group>"; };
 		C6D7E3561FB159CD00604A9E /* SJPolygonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SJPolygonViewController.h; sourceTree = "<group>"; };
 		C6D7E3571FB159CD00604A9E /* SJPolygonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJPolygonViewController.m; sourceTree = "<group>"; };
 		C6D7E3591FB15B8600604A9E /* SJPolygonButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SJPolygonButton.h; sourceTree = "<group>"; };
@@ -108,7 +118,6 @@
 		CF723FB31C4A926500EF4027 /* SJRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJRootViewController.m; sourceTree = "<group>"; };
 		CF723FB61C4A93D000EF4027 /* SJAnimations.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJAnimations.pch; sourceTree = "<group>"; };
 		CF723FB81C4A950400EF4027 /* PublicMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicMacros.h; sourceTree = "<group>"; };
-		CF723FB91C4A961C00EF4027 /* SJViewControllersHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJViewControllersHeader.h; sourceTree = "<group>"; };
 		CF723FBA1C4A9B3600EF4027 /* SJItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJItem.h; sourceTree = "<group>"; };
 		CF723FBB1C4A9B3600EF4027 /* SJItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJItem.m; sourceTree = "<group>"; };
 		CF723FBD1C4A9EA400EF4027 /* SJRootViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJRootViewCell.h; sourceTree = "<group>"; };
@@ -213,6 +222,33 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		C640C29B1FB69A33009EBE7C /* SJEmitterLayerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C640C29C1FB69A4D009EBE7C /* SJEmitterLayerViewController.h */,
+				C640C29D1FB69A4D009EBE7C /* SJEmitterLayerViewController.m */,
+			);
+			path = SJEmitterLayerViewController;
+			sourceTree = "<group>";
+		};
+		C640C29F1FB69A9A009EBE7C /* SJShapeLayerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C640C2A41FB69C73009EBE7C /* SJShapeLayerViewController.h */,
+				C640C2A51FB69C73009EBE7C /* SJShapeLayerViewController.m */,
+			);
+			path = SJShapeLayerViewController;
+			sourceTree = "<group>";
+		};
+		C640C2A01FB69A9A009EBE7C /* SJReplicatorLayerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C640C2A11FB69AB6009EBE7C /* SJReplicatorLayerViewController.h */,
+				C640C2A21FB69AB6009EBE7C /* SJReplicatorLayerViewController.m */,
+			);
+			path = SJReplicatorLayerViewController;
 			sourceTree = "<group>";
 		};
 		C6D7E3551FB1593E00604A9E /* SJPolygonViewController */ = {
@@ -357,7 +393,6 @@
 				CF723FB61C4A93D000EF4027 /* SJAnimations.pch */,
 				CF723FB81C4A950400EF4027 /* PublicMacros.h */,
 				CF02C2471C4B95AC00236F92 /* DebugLog.h */,
-				CF723FB91C4A961C00EF4027 /* SJViewControllersHeader.h */,
 				CF723F901C4A8AD000EF4027 /* Main.storyboard */,
 				CF723F931C4A8AD000EF4027 /* Assets.xcassets */,
 				CF723F951C4A8AD000EF4027 /* LaunchScreen.storyboard */,
@@ -392,6 +427,7 @@
 		CF723FB11C4A926500EF4027 /* RootViewController */ = {
 			isa = PBXGroup;
 			children = (
+				C640C2A71FB69DF9009EBE7C /* SJViewControllersHeader.h */,
 				CF723FB21C4A926500EF4027 /* SJRootViewController.h */,
 				CF723FB31C4A926500EF4027 /* SJRootViewController.m */,
 				CF723FBA1C4A9B3600EF4027 /* SJItem.h */,
@@ -408,14 +444,17 @@
 				CF65E2621C5C995200E8EE7B /* SJAnimationGroupViewController */,
 				CF65E2561C5C8DB300E8EE7B /* SJBasicAnimationViewController */,
 				CF72401B1C4AB32F00EF4027 /* SJButtonPressViewController */,
-				CFC17EAF1C893CE000A67423 /* SJCustomTransitionsViewController */,
 				CF65E2751C5CB7F100E8EE7B /* SJCustomLayerViewController */,
+				CFC17EAF1C893CE000A67423 /* SJCustomTransitionsViewController */,
 				CF65E26A1C5CAC5200E8EE7B /* SJDisplayLinkViewController */,
+				C640C29B1FB69A33009EBE7C /* SJEmitterLayerViewController */,
 				CF3964B91C771D0300608273 /* SJGradientLayerAnimationViewController */,
 				18300D101F9F83D4009670EA /* SJKeepBoundsViewController */,
 				CF65E25E1C5C964100E8EE7B /* SJKeyframeAnimationViewController */,
 				CF65E26E1C5CAE8000E8EE7B /* SJLayerAnimationViewController */,
 				C6D7E3551FB1593E00604A9E /* SJPolygonViewController */,
+				C640C2A01FB69A9A009EBE7C /* SJReplicatorLayerViewController */,
+				C640C29F1FB69A9A009EBE7C /* SJShapeLayerViewController */,
 				CF65E2571C5C8DB300E8EE7B /* SJSimpleAnimationViewController */,
 				CF65E2661C5CA99E00E8EE7B /* SJTransitionViewController */,
 			);
@@ -569,6 +608,8 @@
 				TargetAttributes = {
 					CF723F831C4A8AD000EF4027 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 6NLHX4X49M;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -631,6 +672,7 @@
 				CF7240091C4AACBA00EF4027 /* POPAnimatableProperty.mm in Sources */,
 				CF7240181C4AACBA00EF4027 /* POPSpringAnimation.mm in Sources */,
 				CF65E2611C5C966000E8EE7B /* SJKeyframeAnimationViewController.m in Sources */,
+				C640C29E1FB69A4D009EBE7C /* SJEmitterLayerViewController.m in Sources */,
 				CF723FB51C4A926500EF4027 /* SJRootViewController.m in Sources */,
 				CF7240151C4AACBA00EF4027 /* POPLayerExtras.mm in Sources */,
 				C6D7E35B1FB15B8600604A9E /* SJPolygonButton.m in Sources */,
@@ -638,6 +680,7 @@
 				CF7240191C4AACBA00EF4027 /* POPVector.mm in Sources */,
 				CFC17EB21C893CF200A67423 /* SJCustomTransitionsViewController.m in Sources */,
 				CF65E2651C5C996600E8EE7B /* SJAnimationGroupViewController.m in Sources */,
+				C640C2A61FB69C73009EBE7C /* SJShapeLayerViewController.m in Sources */,
 				CF65E2741C5CAEBD00E8EE7B /* SJLayerAnimationViewController.m in Sources */,
 				CF723FBF1C4A9EA400EF4027 /* SJRootViewCell.m in Sources */,
 				CF72400A1C4AACBA00EF4027 /* POPAnimation.mm in Sources */,
@@ -654,6 +697,7 @@
 				CF723FBC1C4A9B3600EF4027 /* SJItem.m in Sources */,
 				CF7240111C4AACBA00EF4027 /* POPCGUtils.mm in Sources */,
 				CF65E2691C5CA9B100E8EE7B /* SJTransitionViewController.m in Sources */,
+				C640C2A31FB69AB6009EBE7C /* SJReplicatorLayerViewController.m in Sources */,
 				CF72401E1C4AB32F00EF4027 /* SJButtonPressViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -766,11 +810,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6NLHX4X49M;
 				GCC_PREFIX_HEADER = SJAnimations/SJAnimations.pch;
 				INFOPLIST_FILE = SJAnimations/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fx.YiBan.SJAnimations;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -779,11 +827,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6NLHX4X49M;
 				GCC_PREFIX_HEADER = SJAnimations/SJAnimations.pch;
 				INFOPLIST_FILE = SJAnimations/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fx.YiBan.SJAnimations;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
