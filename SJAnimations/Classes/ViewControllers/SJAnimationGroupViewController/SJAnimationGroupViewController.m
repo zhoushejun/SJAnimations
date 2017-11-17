@@ -35,6 +35,10 @@
 #pragma mark -
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    CAAnimation *animation = [_subLayer animationForKey:@"AnimationGroup"];
+    if (animation) {
+        return;
+    }
     [self groupAnimation];
 }
 
@@ -57,13 +61,14 @@
 
 - (void)groupAnimation {
     //创建动画组
+    
     CAAnimationGroup *animationGroup = [CAAnimationGroup animation];
     animationGroup.animations = @[[self rotationAnimation], [self transitionAnimation]];
     animationGroup.delegate = self;
     animationGroup.duration = 10.0f;
     animationGroup.beginTime = CACurrentMediaTime();
     
-    [_subLayer addAnimation:animationGroup forKey:nil];
+    [_subLayer addAnimation:animationGroup forKey:@"AnimationGroup"];
 }
 
 - (CABasicAnimation *)rotationAnimation {
